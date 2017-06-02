@@ -1,0 +1,45 @@
+a{
+	display: block;
+	width: 70px;
+	height: 70px;
+}
+a img{
+	width: 100%;
+}
+ul{
+	list-style: none;
+	text-align: center;
+}
+li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.slider{
+	border: 1px solid black;
+	width: 700px;
+}
+.slider-top{
+	position: relative;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	padding: 50px;
+	box-sizing: border-box;
+	border-bottom: 1px dotted silver;
+}
+.slider-top img{
+	width: 100%;
+}
+.preloader{
+	width: 80px;
+	height: 80px;
+	background: url(25.gif) 0 0 no-repeat;
+	display: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.slider{
+	width: 600px;
+}
